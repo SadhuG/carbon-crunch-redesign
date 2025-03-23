@@ -3,7 +3,7 @@ import { Cairo, DM_Sans } from "next/font/google";
 import "./globals.css";
 
 const dmSans = DM_Sans({
-  variable: "--font-geist-sans",
+  variable: "--font-dm-sans",
   subsets: ["latin"],
 });
 

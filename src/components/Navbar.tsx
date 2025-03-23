@@ -1,9 +1,10 @@
+import Sidebar from "@/components/Sidebar";
 import Image from "next/image";
 import Link from "next/link";
+import { Button } from "./ui/button";
 
 // logo
 import logo from "@/assets/carbon-crunch-logo.png";
-import { Button } from "./ui/button";
 
 const Navbar = () => {
   return (
@@ -11,7 +12,7 @@ const Navbar = () => {
       {/* nav container */}
       <div className="container mx-auto flex items-center justify-between p-4">
         {/* logo */}
-        <div>
+        <div className="flex items-center space-x-4">
           <a href="/">
             <Image
               src={logo}
@@ -30,9 +31,14 @@ const Navbar = () => {
           <Link href={""}>Contact</Link>
         </div>
         {/* nav cta */}
-        <div className="flex items-center justify-between space-x-4 max-md:hidden">
-          <Button variant={"secondary"}>Login</Button>
-          <Button>Book Demo</Button>
+        <div className="flex items-center justify-between space-x-4">
+          <div className="flex items-center justify-between space-x-4 max-md:hidden">
+            <Button variant={"secondary"}>Login</Button>
+            <Button>Book Demo</Button>
+          </div>
+          <div className="flex items-center">
+            <Sidebar logo={logo} />
+          </div>
         </div>
       </div>
     </nav>
