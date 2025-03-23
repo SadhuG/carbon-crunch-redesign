@@ -11,8 +11,8 @@ A live version of the project is hosted on [Vercel](https://carbon-crunch-redesi
 
 ## Additional Assets & Credits
 
-- **Images/Icons/Fonts:**  
-  All external assets used in this project have been uploaded to the repository. These assets are downloaded from [Relume Icons](https://icons.relume.io/) and [Lucide React Icons](https://lucide.dev/guide/packages/lucide-react).Dashboard Image is part of [Figma Task File](https://www.figma.com/design/mvr8LtX9LWOdTtX1Kco6pN/Task-File---4?node-id=0-1&t=WZ9qJ6dgNBSKNSXw-1) and was hidden in the design. Font DM Sans and Cairo from [Google Fonts](https://fonts.google.com/specimen/DM+Sans)
+- **Images/Icons/Fonts/Components:**  
+  All external assets used in this project have been uploaded to the repository. These assets are downloaded from [Relume Icons](https://icons.relume.io/) and [Lucide React Icons](https://lucide.dev/guide/packages/lucide-react).Dashboard Image is part of [Figma Task File](https://www.figma.com/design/mvr8LtX9LWOdTtX1Kco6pN/Task-File---4?node-id=0-1&t=WZ9qJ6dgNBSKNSXw-1) and was hidden in the design. Font DM Sans and Cairo from [Google Fonts](https://fonts.google.com/specimen/DM+Sans). Components are taken from [shadcn/ui](https://ui.shadcn.com/).
 
 ## Approach
 
