@@ -34,14 +34,14 @@ const Sidebar = ({ logo }: SidebarProps) => {
           <SheetHeader>
             <SheetTitle>
               <div className="w-52">
-                <a href="/">
+                <Link href={""}>
                   <Image
                     src={logo}
                     alt="Carbon Crunch Logo"
                     width={200}
                     height={50}
                   />
-                </a>
+                </Link>
               </div>
             </SheetTitle>
             <SheetDescription>

@@ -13,14 +13,14 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between p-4">
         {/* logo */}
         <div className="flex items-center space-x-4">
-          <a href="/">
+          <Link href={""}>
             <Image
               src={logo}
               alt="Carbon Crunch Logo"
               width={200}
               height={50}
             />
-          </a>
+          </Link>
         </div>
 
         <div className="hidden space-x-7 font-medium lg:flex lg:items-center lg:justify-between">

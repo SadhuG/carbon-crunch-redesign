@@ -11,8 +11,8 @@ const Stats = () => {
       heading: "The Reality of Corporate Sustainability Efforts",
       text: (
         <>
-          Only 37% of companies have set net zero targets, revealing a
-          significant sustainability gap
+          Only <strong>37%</strong> of companies have set net zero targets,
+          revealing a significant sustainability gap
         </>
       ),
     },
@@ -21,8 +21,8 @@ const Stats = () => {
       heading: "The Importance of ESG Performance",
       text: (
         <>
-          Companies excelling in ESG deliver returns three times higher than
-          their peers, proving sustainability pays off
+          Companies excelling in ESG deliver returns <strong>3x</strong> higher
+          than their peers, proving sustainability pays off
         </>
       ),
     },
@@ -31,8 +31,8 @@ const Stats = () => {
       heading: "Urgency for Action on Emissions",
       text: (
         <>
-          Only 18% of firms are reducing emissions fast enough to achieve net
-          zero by 2050
+          Only <strong>18%</strong> of firms are reducing emissions fast enough
+          to achieve net zero by 2050
         </>
       ),
     },
@@ -42,7 +42,7 @@ const Stats = () => {
       text: (
         <>
           It's crucial for businesses to align their goals with actionable
-          sustainability strategies for real impact
+          sustainability strategies for <strong>real impact</strong>
         </>
       ),
     },
@@ -62,7 +62,7 @@ const Stats = () => {
 
           {/* subheading */}
           <p className="mt-6 lg:text-lg">
-            Corporate sustainability is more than a buzzword; it's a necessity.
+            Corporate sustainability is more than a buzzword; it&apos;s a necessity.
             While most CEOs recognize their role in this mission, actual
             progress remains alarmingly slow.
           </p>
