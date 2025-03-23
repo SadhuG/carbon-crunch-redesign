@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Carbon Crunch Task - Redesign
 
-## Getting Started
+## Objective
 
-First, run the development server:
+This project is continuation of [Carbon Crunch - Task](https://github.com/SadhuG/carbon-crunch-task) for an objectively faster more performant and a subjectively better looking 😅 website.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Live Preview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+A live version of the project is hosted on [Vercel](https://carbon-crunch-redesign.vercel.app/).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Additional Assets & Credits
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Images/Icons/Fonts:**  
+  All external assets used in this project have been uploaded to the repository. These assets are downloaded from [Relume Icons](https://icons.relume.io/) and  [Lucide React Icons](https://lucide.dev/guide/packages/lucide-react).Dashboard Image is part of [Figma Task File](https://www.figma.com/design/mvr8LtX9LWOdTtX1Kco6pN/Task-File---4?node-id=0-1&t=WZ9qJ6dgNBSKNSXw-1) and was hidden in the design. Font DM Sans and Cairo from [Google Fonts](https://fonts.google.com/specimen/DM+Sans)
 
-## Learn More
+## Approach
 
-To learn more about Next.js, take a look at the following resources:
+1. **Design Translation:**  
+   I carefully analyzed the [Figma Task File](https://www.figma.com/design/mvr8LtX9LWOdTtX1Kco6pN/Task-File---4?node-id=0-1&t=WZ9qJ6dgNBSKNSXw-1) provided for the task and implemented a complete overhaul of the design to create something modern and minimal while preserving the spirit of the given [Figma Task File](https://www.figma.com/design/mvr8LtX9LWOdTtX1Kco6pN/Task-File---4?node-id=0-1&t=WZ9qJ6dgNBSKNSXw-1) while ensuring responsiveness and accessibility.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   **Changes:**
+   - Modern Sans and Sans Serif Fonts
+   - Added Gradient and light green background with an extensive green pallet to symbolize sustainability.
+   - Used more icons than images to reduce the readers cognitive burden.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. **Tech Stack & Tools:**  
+   The project is built with React + Tailwind CSS + Typescript using Nextjs as the framework of choice. Tailwind CSS was used for styling, ensuring quick iterations and responsiveness. Typescript for type safety in components and props. Next.js for better performance, SEO, accessibility, etc. The code was structured for clarity and reusability.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Best Regards,**  
+Sudhansh
