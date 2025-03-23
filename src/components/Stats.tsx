@@ -41,7 +41,7 @@ const Stats = () => {
       heading: "Closing the Ambition-Action Gap",
       text: (
         <>
-          It's crucial for businesses to align their goals with actionable
+          It&apos;s crucial for businesses to align their goals with actionable
           sustainability strategies for <strong>real impact</strong>
         </>
       ),
@@ -62,9 +62,9 @@ const Stats = () => {
 
           {/* subheading */}
           <p className="mt-6 lg:text-lg">
-            Corporate sustainability is more than a buzzword; it&apos;s a necessity.
-            While most CEOs recognize their role in this mission, actual
-            progress remains alarmingly slow.
+            Corporate sustainability is more than a buzzword; it&apos;s a
+            necessity. While most CEOs recognize their role in this mission,
+            actual progress remains alarmingly slow.
           </p>
         </div>
 
