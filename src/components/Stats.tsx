@@ -56,7 +56,7 @@ const Stats = () => {
           <p>Sustainability</p>
 
           {/* heading */}
-          <h2 className="mt-4 text-4xl font-semibold lg:text-5xl">
+          <h2 className="mt-4 font-sans text-4xl font-semibold lg:text-5xl">
             Bridging the Gap Between Ambition and Action
           </h2>
 
@@ -75,7 +75,7 @@ const Stats = () => {
               className="mx-4 my-8 flex w-72 flex-col items-center"
             >
               <Image src={stat.image} alt={""} width={48} height={48} />
-              <h5 className="mt-6 text-xl font-medium lg:text-2xl">
+              <h5 className="mt-6 font-sans text-xl font-medium lg:text-2xl">
                 {stat.heading}
               </h5>
               <p className="mt-4">{stat.text}</p>

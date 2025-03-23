@@ -28,7 +28,7 @@ const Hero = () => {
           </div>
 
           {/* main page heading */}
-          <h1 className="mt-3 text-center text-[40px] font-bold lg:text-6xl">
+          <h1 className="mt-3 text-center font-sans text-[40px] font-bold lg:text-6xl">
             Streamline Your Sustainability Reporting With{" "}
             <span className="text-primary-green-darkest text-nowrap">
               CARBON CRUNCH
@@ -38,7 +38,9 @@ const Hero = () => {
           {/* sub-heading */}
 
           <p className="mt-6 text-center text-xl">
-            <span className="text-primary-green-darkest font-bold">95%</span>{" "}
+            <span className="text-primary-green-darkest font-sans font-bold">
+              95%
+            </span>{" "}
             Accurate Carbon Calculations Trusted by Industry Leaders
           </p>
 
