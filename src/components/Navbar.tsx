@@ -1,0 +1,42 @@
+import Image from "next/image";
+import Link from "next/link";
+
+// logo
+import logo from "@/assets/carbon-crunch-logo.png";
+import { Button } from "./ui/button";
+
+const Navbar = () => {
+  return (
+    <nav>
+      {/* nav container */}
+      <div className="container mx-auto flex items-center justify-between py-4">
+        {/* logo */}
+        <div>
+          <a href="/">
+            <Image
+              src={logo}
+              alt="Carbon Crunch Logo"
+              width={200}
+              height={50}
+            />
+          </a>
+        </div>
+
+        <div className="flex items-center justify-between space-x-7 font-medium">
+          {/* nav menu */}
+          <Link href={""}>Services</Link>
+          <Link href={""}>Blogs</Link>
+          <Link href={""}>About Us</Link>
+          <Link href={""}>Contact</Link>
+        </div>
+        {/* nav cta */}
+        <div className="flex items-center justify-between space-x-4">
+          <Button>Login</Button>
+          <Button>Book Demo</Button>
+        </div>
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;
