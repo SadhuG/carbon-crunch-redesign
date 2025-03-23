@@ -44,8 +44,10 @@ const Hero = () => {
 
           {/* CTA */}
           <div className="mt-10 flex space-x-4">
-            <Button>Free Calculator</Button>
-            <Button>Book Demo</Button>
+            <Button variant={"secondary"} size={"tall"}>
+              Free Calculator
+            </Button>
+            <Button size={"tall"}>Book Demo</Button>
           </div>
         </div>
 

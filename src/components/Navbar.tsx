@@ -31,7 +31,7 @@ const Navbar = () => {
         </div>
         {/* nav cta */}
         <div className="flex items-center justify-between space-x-4">
-          <Button>Login</Button>
+          <Button variant={"secondary"}>Login</Button>
           <Button>Book Demo</Button>
         </div>
       </div>
