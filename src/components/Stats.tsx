@@ -50,18 +50,18 @@ const Stats = () => {
 
   return (
     <section>
-      <div className="container mx-auto my-20 flex flex-col items-center justify-center text-center">
-        <div className="w-[70%]">
+      <div className="container mx-auto my-20 flex flex-col items-center justify-center px-6 text-center">
+        <div className="md:w-[70%]">
           {/* tagline */}
           <p>Sustainability</p>
 
           {/* heading */}
-          <h2 className="mt-4 text-5xl">
+          <h2 className="mt-4 text-4xl font-semibold lg:text-5xl">
             Bridging the Gap Between Ambition and Action
           </h2>
 
           {/* subheading */}
-          <p className="mt-6 text-lg">
+          <p className="mt-6 lg:text-lg">
             Corporate sustainability is more than a buzzword; it's a necessity.
             While most CEOs recognize their role in this mission, actual
             progress remains alarmingly slow.
@@ -74,14 +74,10 @@ const Stats = () => {
               key={index}
               className="mx-4 my-8 flex w-72 flex-col items-center"
             >
-              <Image
-                className="fill-current text-blue-500"
-                src={stat.image}
-                alt={""}
-                width={48}
-                height={48}
-              />
-              <h5 className="mt-6 text-2xl">{stat.heading}</h5>
+              <Image src={stat.image} alt={""} width={48} height={48} />
+              <h5 className="mt-6 text-xl font-medium lg:text-2xl">
+                {stat.heading}
+              </h5>
               <p className="mt-4">{stat.text}</p>
             </div>
           ))}

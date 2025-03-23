@@ -9,7 +9,7 @@ import heroImage from "@/assets/hero-image.png";
 const Hero = () => {
   return (
     // hero section
-    <section className="flex h-full w-full items-center justify-center">
+    <section className="flex h-full w-full items-center justify-center px-6">
       <div className="container mx-auto mt-18 mb-16 flex flex-col items-center justify-center">
         {/* gradient background */}
         <div className="absolute top-0 z-[-2] h-screen w-screen bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(40,179,10,0.3),rgba(40,179,10,0))]"></div>
@@ -28,7 +28,7 @@ const Hero = () => {
           </div>
 
           {/* main page heading */}
-          <h1 className="mt-3 text-4xl font-bold md:text-center lg:text-6xl">
+          <h1 className="mt-3 text-center text-[40px] font-bold lg:text-6xl">
             Streamline Your Sustainability Reporting With{" "}
             <span className="text-primary-green-darkest text-nowrap">
               CARBON CRUNCH
